@@ -18,5 +18,5 @@ do{
     console.log("Número", contador);
     contador++;
 } while (contador <=numeroDigitado);
-console.log("FIM")  
+console.log("FIM");
 
