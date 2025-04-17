@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="06"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-17 09:53:06 "/>
+        <attribute name="created" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNzsiMDk6MDI6NTIgIjsyMzMx"/>
+        <attribute name="edited" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNzsiMDk6MDU6MzMgIjsyO0RFUy1NSDtTTjUxMi0xMjQyOTgzOzIwMjUtMDQtMTY7IjExOjAwOjU2ICI7MDQuZnByZzs1NDYy"/>
+        <attribute name="edited" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNzsiMDk6NTM6MDYgIjsyOzI0NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <output expression="&quot;Exercicio 6 com for&quot;" newline="True"/>
+            <assign variable="contador" expression="30"/>
+            <for variable="contador" start="30" end="1" direction="dec" step="1">
+                <if expression="contador % 4 == 0">
+                    <then>
+                        <output expression="&quot;Numero: [&quot; &amp; contador &amp; &quot;]&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Numero:&quot; &amp;contador" newline="True"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

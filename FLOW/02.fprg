@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="02"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-17 10:08:25 "/>
+        <attribute name="created" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNjsiMDk6NTg6NTkgIjsyMzQ4"/>
+        <attribute name="edited" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNzsiMTA6MDg6MjMgIjs5O0RFUy1NSDtTTjUxMi0xMjQyOTgzOzIwMjUtMDQtMTY7IjA5OjMzOjI5ICI7MDEuZnByZzs1NDcz"/>
+        <attribute name="edited" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNzsiMTA6MDg6MjUgIjs0OzI0NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Exercicio 2 com for&quot;" newline="True"/>
+            <assign variable="numero" expression="10"/>
+            <for variable="numero" start="10" end="1" direction="dec" step="1">
+                <output expression="&quot;Numero: &quot; &amp;numero" newline="True"/>
+            </for>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <output expression="&quot;Exercicio 2 com while&quot;" newline="True"/>
+            <assign variable="numero" expression="10"/>
+            <while expression="numero &gt;=1">
+                <output expression="&quot;Numero: &quot; &amp;numero" newline="True"/>
+                <assign variable="numero" expression="numero-1"/>
+            </while>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+            <output expression="&quot;Exercicio 2 com do while&quot;" newline="True"/>
+            <assign variable="numero" expression="10"/>
+            <do expression="numero &gt;=1">
+                <output expression="&quot;Numero: &quot; &amp;numero" newline="True"/>
+                <assign variable="numero" expression="numero-1"/>
+            </do>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="07"/>
+        <attribute name="authors" value="DES-MH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-17 10:03:15 "/>
+        <attribute name="created" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNzsiMDk6NDM6NDMgIjsyMzM2"/>
+        <attribute name="edited" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNzsiMDk6NDc6MDIgIjsxO0RFUy1NSDtTTjUxMi0xMjQyOTgzOzIwMjUtMDQtMTY7IjExOjA3OjU5ICI7MDUuZnByZzs1NDc0"/>
+        <attribute name="edited" value="REVTLU1IO1NONTEyLTEyNDI5ODM7MjAyNS0wNC0xNzsiMTA6MDM6MTUgIjsxOzI0MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primeiroNumero, ultimoNumero, incremento, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Exercicio 7 com for&quot;" newline="True"/>
+            <output expression="&quot;Digite o primeiro numero, o numero por qual vai come&#231;ar&quot;" newline="True"/>
+            <input variable="primeiroNumero"/>
+            <output expression="&quot;Digite o ultimo numero&quot;" newline="True"/>
+            <input variable="ultimoNumero"/>
+            <output expression="&quot;Digite um incremento para aumentar ou diminuir os n&#250;meros&quot;" newline="True"/>
+            <input variable="incremento"/>
+            <for variable="resultado" start="primeiroNumero" end="ultimoNumero" direction="inc" step="incremento">
+                <output expression="&quot;Numero: &quot; &amp;resultado" newline="True"/>
+            </for>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
